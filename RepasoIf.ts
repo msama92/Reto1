@@ -145,14 +145,36 @@ function paroimpar (numero)
 let vector1 =["Casa","Coche","Ciudad","Cesta"];
 let vector2 =["Barco","Baca","Bicicleta","Balon","Bisiesto","Brasil"];
 let vector3 =["Venezuela","Veneno","Voltaje"];
+//Funcion 1
+console.log(zodiaco(new Date(1992,6,26)))
 
+//Funcion 2
+console.log(continentes('Corea'))
+
+//Funcion 3
+console.log(cambio([1,2,3,4,5,6,7,8,9]))
+
+//Funcion 4
+impares(7)
+
+//Funcion 5
+//colores(['Rojo','Negro','Amarillo'])
+
+//Funcion 6
+par([2,3,4,5,6])
+par([3,5,7])
+
+//Funcion 7
+console.log(letram(['Mojo','Megro','Mmarillo']))
+
+//Funcion 8 y 9
 paroimpar(sumaletras(vector1));
 paroimpar(sumaletras(vector2));
 paroimpar(sumaletras(vector3));
 
-console.log(zodiaco(new Date(1992,6,26)))
-console.log(continentes('Corea'))
-console.log(cambio([1,2,3,4,5,6,7,8,9]))
-impares(7)
-//colores(['Rojo','Negro','Amarillo'])
-console.log(letram(['Mojo','Megro','Mmarillo']))
+
+
+
+
+
+
