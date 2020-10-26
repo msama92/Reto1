@@ -88,8 +88,9 @@ function colores(muestras)
     let arcoiris = ["Rojo", "Naranja", "Amarillo","Verde","Azul", "Indigo", "Violeta"]
     for (let i=0; i<muestras.length; i++)
     {
-        for (let j=0; j<arcoiris.length; i++)
+        for (let j=0; j<arcoiris.length; j++)
         {
+           
             if (muestras[i] == arcoiris[j] )
             {
                 console.log (muestras[i] + " esta en el arcoiris")
@@ -158,7 +159,7 @@ console.log(cambio([1,2,3,4,5,6,7,8,9]))
 impares(7)
 
 //Funcion 5
-//colores(['Rojo','Negro','Amarillo'])
+colores(['Negro','Amarillo'])
 
 //Funcion 6
 par([2,3,4,5,6])
